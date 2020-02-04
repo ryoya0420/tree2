@@ -1,0 +1,25 @@
+<div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 product-new-container">
+        <h1>商品登録</h1>
+        <%= form_for @product do |pro| %>
+          <div class="form-group">
+            <%= pro.label :"商品名" %><br>
+            <%= pro.text_field :name, class: 'form-control' %>
+          </div>
+          <div class="form-group">
+            <%= pro.label :"画像" %><br>
+            <%= pro.file_field :iamge %>
+          </div>
+          <div class="form-group">
+            <%= pro.label :"価格" %><br>
+            <%= pro.number_field :price %>
+          </div>
+          
+          <%= pro.submit "登録", class: 'btn btn-primary btn-block' %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
