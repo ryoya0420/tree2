@@ -11,9 +11,11 @@
             <%= @product.name %>
           </div>
           <div class="form-group">
-            <%= @product.price %>円
+            <%= @product.price %>円<br>
           </div>
         </div>
+        <%= link_to "編集", edit_product_path(@product.id) %><br>
+        <%= link_to "削除", product_path ,method: :delete %>
       </div>
     </div>
   </div>

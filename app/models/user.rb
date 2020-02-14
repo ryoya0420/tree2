@@ -7,6 +7,6 @@ class User < ApplicationRecord
   validates :email, format: {with: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i }
   has_secure_password
   
-  # has_many :products
+  has_many :products
   has_many :carts
 end

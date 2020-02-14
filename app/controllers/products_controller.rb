@@ -9,8 +9,9 @@ class ProductsController < ApplicationController
   
   def create
     @product = Product.new(product_params)
-    # @product = Product.new(name: params[:product][:name], image: params[:product][:image], price: params[:product][:price])
-    # byebug
+    #binding.pry
+     #@product = Product.new(name: params[:product][:name], image: params[:product][:image], price: params[:product][:price])
+     #byebug
     if @product.save
       redirect_to products_path, success: '商品登録完了'
     else
@@ -23,21 +24,21 @@ class ProductsController < ApplicationController
     @product = Product.find_by(id: params[:id])
   end
   
-  # def edit
-  #   @product = Product.find_by(product_params)
-  # end
+  def edit
+    @product = Product.find_by(product_params)
+  end
   
-  # def update
-  #   @product = Product.find_by(product_params)
-  #   @product.save
-  #   redirect_to product_path, success: "変更完了"
-  # end
+  def update
+    @product = Product.find_by(product_params)
+    @product.save
+    redirect_to product_path, success: "変更完了"
+  end
   
-  # def destroy
-  #   @product = Product.find_by(id: params[:id])
-  #   @product.destroy
-  #   redirect_to root_path, success: "削除しました"
-  # end
+  def destroy
+    @product = Product.find_by(id: params[:id])
+    @product.destroy
+    redirect_to product_path, success: "削除しました"
+  end
   
   private
   def product_params

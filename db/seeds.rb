@@ -1,3 +1,8 @@
+User.create!(username: "管理者",
+             email: "ooi9@ss.com",
+             password: "3edc4rfv",
+             password_confirmation: "3edc4rfv",
+             admin: true)
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 #

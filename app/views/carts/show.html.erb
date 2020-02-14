@@ -1,0 +1,7 @@
+<h1>買い物かご</h1>
+<% @cart_items.each do |c| %>
+  <%= c.product %>
+  <%= c.quantity %>
+  <%=link_to "変更",update_item_path %>
+  <%=link_to "削除", delete_item_path, method: :delete %>
+<% end %>

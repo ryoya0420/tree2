@@ -15,13 +15,20 @@
             <%= f.label :"メールアドレス", class: 'text-white' %>
             <%= f.email_field :email, class: 'form-control' %>
           </div>
-          <div class="form-group">
-            <%= f.label :"パスワード", 'text-white' %>
-            <%= f.password_field :password, class: 'form-control' %>
-          </div>
-          <div class="form-group">
-            <%= f.label :"確認用", class: 'text-white' %>
-            <%= f.password_field :password_confirmation, class: 'form-control' %>
+          
+          <div class="accbox">
+            <label for="label1">パスワード変更する場合↓</label>
+            <input type="checkbox" id="label1" class="cssacc" />
+            <div class="accshow">
+              <div class="form-group">
+                <%= f.label :"パスワード", class: 'text-white' %>
+                <%= f.password_field :password, class: 'form-control' %>
+              </div>
+              <div class="form-group">
+                <%= f.label :"確認用", class: 'text-white' %>
+                <%= f.password_field :password_confirmation, class: 'form-control' %>
+              </div>
+            </div>
           </div>
           
           <%= f.submit "変更", class: 'btn btn-primary btn-block' %>

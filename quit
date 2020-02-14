@@ -1,0 +1,16 @@
+=> [[32m#<User:0x0000000005b0c390[0m
+  id: [1;34m1[0m,
+  name: [31m[1;31m"[0m[31m　ryoya.forere[1;31m"[0m[31m[0m,
+  email: [31m[1;31m"[0m[31msupelmiss@cc.com[1;31m"[0m[31m[0m,
+  password_digest: [31m[1;31m"[0m[31m$2a$12$DiwInozT5U9/J2iW9plRtOeLIn6uFOO.vHgJuA35bSqZSPa6jB2SS[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mWed[0m, [1;34m05[0m [1;34;4mFeb[0m [1;34m2020[0m [1;34m14[0m:[1;34m21[0m:[1;34m15[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mWed[0m, [1;34m05[0m [1;34;4mFeb[0m [1;34m2020[0m [1;34m14[0m:[1;34m21[0m:[1;34m15[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  admin: [1;36mfalse[0m[32m>[0m,
+ [32m#<User:0x0000000005b5e550[0m
+  id: [1;34m2[0m,
+  name: [31m[1;31m"[0m[31m管理者[1;31m"[0m[31m[0m,
+  email: [31m[1;31m"[0m[31mooi9@ss.com[1;31m"[0m[31m[0m,
+  password_digest: [31m[1;31m"[0m[31m$2a$12$0gKMqpe1dcjR8GMr3D3XRO4W4ewO1Hyu19xGcG6ep2shMkPW5CKBe[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mMon[0m, [1;34m10[0m [1;34;4mFeb[0m [1;34m2020[0m [1;34m04[0m:[1;34m39[0m:[1;34m36[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mMon[0m, [1;34m10[0m [1;34;4mFeb[0m [1;34m2020[0m [1;34m04[0m:[1;34m39[0m:[1;34m36[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  admin: [1;36mfalse[0m[32m>[0m]
