@@ -3,10 +3,10 @@
     <div class="row">
       <div class="col-md-6 col-md-offset-3 product-new-container">
         <h1>商品情報</h1>
-        <div class="product-show-block1">
+        <div class="product-show-block1"><br>
           <%= image_tag @product.image.url,:height =>'230'%>
         </div>
-        <div class="product-show-block2">
+        <div class="product-show-block2"><br>
           <div class="form-group">
             <%= @product.name %>
           </div>
@@ -14,7 +14,7 @@
             <%= @product.price %>円<br>
           </div>
         </div>
-        <%= link_to "編集", edit_product_path(@product.id) %><br>
+        <%= link_to "編集", edit_product_path(@product.id) %>
         <%= link_to "削除", product_path ,method: :delete %>
       </div>
     </div>
